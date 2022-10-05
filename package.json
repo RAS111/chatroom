@@ -8,7 +8,7 @@
     "dev": "ts-node dev.ts",
     "test": "ava",
     "build:api": "tsc index.ts",
-    "build": "npm build:front && npm build:api",
+    "build": "npm run build:front && npm run build:api",
     "start": "node index.js"
   },
   "dependencies": {
